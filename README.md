@@ -87,16 +87,16 @@ danach kann der gesamte Kurs auch offline genutzt werden.
 
                              {{1}}
                         Versions-Zeit-Diagram
-       100 |                                    r
-           |                              r
-           |                        r
-           |                  r
-  (Version)|            r
-           |      r
-           |r
-           |*  *  *  *  *  *  *  *  *  *  *  *  *
-         1 +-------------------------------------
-           1              (Zeit)               100
+         100 |                                    r
+             |                              r
+             |                        r
+             |                  r
+    (Version)|            r
+             |      r
+             |r
+             |*  *  *  *  *  *  *  *  *  *  *  *  *
+           1 +-------------------------------------
+             1              (Zeit)               100
 
 
     --{{2}}--
