@@ -11,16 +11,23 @@ narrator: Deutsch Male
 
 comment:  Feedback zur Begründung der Ablehnung des Exist-Antrags 2019.
 
-link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
-
-script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
+import: https://raw.githubusercontent.com/liaTemplates/rextester/master/README.md
 
 -->
 
-# Review Exist Review
+# Feedback Exist Review
 
-Dieser Kurs soll als Gutachten des Gutachtens zu LiaScript dienen und geht auf
-all vier Sätze der Ablehnung im Detail ein.
+Dieser Kurs soll als Feedback des Gutachtens zu LiaScript dienen und geht auf
+alle vier Sätze der Ablehnung im Detail ein.
+
+
+Die interaktive LiaScript-Interpretation dieses Kurses finden sie unter:
+
+https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/ExistReview/master/README.md#1
+
+Siehe das original Projekt auf GitHub:
+
+https://github.com/liaScript/ExistReview
 
 ## 1. Satz
 
@@ -56,19 +63,40 @@ else {
 
     --{{2}}--
 Siehe eine Übersicht über verschiedene frei nutzbare Templates. Diese können
-über ein einfaches `import` statement in verschiedene Kurse integriert werden:
+über ein einfaches `import` Statement in verschiedene Kurse integriert werden:
 
 
       {{2}}
 [Template-Index](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaTemplates/Index/master/README.md#1)
 
+      {{2}}
+```cpp
+#include <iostream>
+
+int main()
+{
+  int i = 0;
+
+  std::cin >> i;
+
+  for(; i; i--)
+    std::cout << "I can say Hello World in 45 languages! " << i << std::endl;
+}
+```
+``` bash stdin
+45
+```
+@Rextester.CPP(true,`@input(1)`)
 
     --{{3}}--
 Andere Systeme skalieren nicht, das heißt, ein Austausch von Lehrinhalten
 zwischen den Systemen wird nicht vollständig und von allen Systemen unterstützt.
 Im Gegensatz zu anderen kommerziellen SCORM-kompatiblen Autorensystemen, enthält
 ein LiaScript-Dokument alle Informationen und Konfigurationen in einer für einen
-Menschen einfach zu lesenden und erweiterbaren Form.
+Menschen einfach zu lesenden und erweiterbaren Form und wird zurzeit nur im
+Browser ausgeführt, das heißt, kein Backend ist erforderlich.
+
+
 
 ## 2. Satz
 
@@ -81,8 +109,8 @@ in einer Version, man benötigt für jeden Schritt eine Internetverbindung.
 LiaScript im Gegensatz ist dezentral, die Kurse werden extern gehostet und durch
 die Verbindung zu Markdown und Versionsverwaltungssystemen wie Github, können
 diese in unzähligen Versionen und Übersetzungen zur Verfügung gestellt werden.
-Des Weiteren wird nur eine Internetverbindung beim laden des Dokumentes benötigt
-danach kann der gesamte Kurs auch offline genutzt werden.
+Des Weiteren wird nur eine Internetverbindung während des Ladevorgangs eines
+Dokumentes benötigt, danach kann der gesamte Kurs auch offline genutzt werden.
 
 
                              {{1}}
@@ -100,10 +128,13 @@ danach kann der gesamte Kurs auch offline genutzt werden.
 
 
     --{{2}}--
-Desweiteren stellt der der Vergleich mit Oppia ein Scheinargument dar. Mit der
-gleichen Begründung hätte man auch alle weiteren Konstruktionen eines
+Des Weiteren stellt der Vergleich mit Oppia ein sogenanntes
+[Totschlagargument](https://de.wikipedia.org/wiki/Totschlagargument) dar. Mit
+der gleichen Begründung hätte man auch alle weiteren Konstruktionen eines
 Flugapparates "widerlegen" können oder weitere Entwicklungen am autonom
-fahrenden Auto.
+fahrenden Auto. Außerdem hätte ebenfalls Udemy als positives Beispiel
+herangezogen werden können.
+
 
 ## 3. Satz
 
@@ -121,13 +152,13 @@ Handelt es sich bei LiaScript um eine proprietäre Beschreibungssprache?
     [(X)] **Auf gar keinen Fall!**
 ****************************************************
 
-LiaScript basiert auf Markdown, einem so genannten "Open Format" zum speichern
+LiaScript basiert auf Markdown, einem sogenannten "Open Format" zum Speichern
 digitaler Inhalte. Alle damit erstellten Inhalte können auch ohne
 LiaScript-Interpreter mit gängigen Markdown-Viewern oder nur einem Texteditor
 gelesen werden.
 
-Die Lizens wird ausschließlich durch den Autor bestimmt, der auch alle Rechte
-an seinem Werk behält. Er teilt nur einen Link über die Plattform.
+Die Lizenz wird ausschließlich durch den Autor bestimmt, der auch alle Rechte an
+seinem Werk behält. Er teilt nur einen Link über die Plattform.
 
 _Siehe:_ https://en.wikipedia.org/wiki/List_of_open_formats
 
@@ -143,15 +174,17 @@ Nutzers.
 
     {{2}}
 ```html
-<iframe src="todo"></iframe>
+<iframe src="https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/ExistReview/master/README.md#1">
+</iframe>
 ```
 
     --{{3}}--
-Bezüglich des didaktischen Konzeptes steht es dem Autor frei, sich für das
-jenige seiner Wahl zu entscheiden. LiaScript ist eine (Programmier-) Sprache,
-die gängige Web-Technologien wie CSS, JavaScript, HTML nativ einbindet und somit
+Bezüglich des didaktischen Konzeptes steht es dem Autor frei, sich für dasjenige
+seiner Wahl zu entscheiden. LiaScript ist eine (Programmier-) Sprache, die
+gängige Web-Technologien wie CSS, JavaScript, HTML nativ einbindet und somit
 auch die Möglichkeit bietet Lernpfade, Metriken, etc. zu integrieren. Es sei
 hierbei auf die Nutzung von Macros hingewiesen aus Satz [1](#2).
+
 
 ## 4. Satz
 
