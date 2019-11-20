@@ -1,5 +1,5 @@
 <!--
-author:   André Dietrich & Sebastian Zug
+author:   André Dietrich
 
 email:    LiaScript@web.de
 
@@ -23,11 +23,11 @@ alle vier Sätze der Ablehnung im Detail ein.
 
 Die interaktive LiaScript-Interpretation dieses Kurses finden sie unter:
 
-https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/ExistReview/master/README.md#1
+https://liascript.github.io/course/?https://raw.githubusercontent.com/andre-dietrich/ExistReview/master/README.md#1
 
 Siehe das original Projekt auf GitHub:
 
-https://github.com/liaScript/ExistReview
+https://github.com/andre-dietrich/ExistReview
 
 ## 1. Satz
 
@@ -174,7 +174,7 @@ Nutzers.
 
     {{2}}
 ```html
-<iframe src="https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/ExistReview/master/README.md#1">
+<iframe src="https://liascript.github.io/course/?https://raw.githubusercontent.com/andre-dietrich/ExistReview/master/README.md#1">
 </iframe>
 ```
 
